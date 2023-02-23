@@ -13,6 +13,6 @@ Demo:
 
 ## Learn More
 
-- [Firebase Authentication documentation](https://firebase.google.com/docs/auth?authuser=0&hl=en)
-- [React documentation](https://reactjs.org/)
-- [Create React App documentation](https://create-react-app.dev/docs/getting-started/)
+- [Firebase Authentication docs](https://firebase.google.com/docs/auth?authuser=0&hl=en)
+- [React docs](https://reactjs.org/)
+- [Create React App docs](https://create-react-app.dev/docs/getting-started/)
