@@ -1,12 +1,18 @@
 import React from "react";
+import NavBar from "./components/NavBar";
+import ChatBox from "./components/ChatBox";
+import Welcome from "./components/Welcome";
 
 const App = () => {
+  const [user, setUser] = useState(false);
+
   return (
-    <div>
-      <button>Login Google</button>
-      <button>Login GitHub</button>
-      <button>Log Out</button>
-    </div>
+    <>
+      <div>
+        <NavBar />
+        {!user ? <Welcome /> : <ChatBox />}
+      </div>
+    </>
   );
 };
 
