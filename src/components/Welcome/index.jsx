@@ -1,7 +1,14 @@
 import React from "react";
 
+import { auth } from "../../firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
+
 const Welcome = () => {
-  const googleSignIn = () => {};
+  const googleSignIn = () => {
+    const provider = new GoogleAuthProvider();
+    signInWithRedirect(auth, provider);
+  };
 
   return (
     <>
