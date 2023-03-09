@@ -16,6 +16,7 @@ import SendMessage from "../SendMessage";
 
 const ChatBox = () => {
   const [messages, setMessages] = useState([]);
+  const scroll = useRef();
 
   useEffect(() => {
     const q = query(collection(db, "messages"), orderBy("createAt"), limit(50));
@@ -37,7 +38,8 @@ const ChatBox = () => {
           <Message key={message.id} message={message} />
         ))}
       </div>
-      <SendMessage />
+      <span ref={scroll}></span>
+      <SendMessage scroll={scroll} />
     </main>
   );
 };
