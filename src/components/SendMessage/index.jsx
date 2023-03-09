@@ -34,7 +34,7 @@ const SendMessage = () => {
         name="messageInput"
         placeholder="type your message..."
         value={message}
-        onChange={(m) => SetMessage(m.target.value)}
+        onChange={(e) => SetMessage(e.target.value)}
       />
       <button type="submit">Send</button>
     </form>
