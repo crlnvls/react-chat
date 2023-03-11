@@ -6,6 +6,9 @@
 
 html {
   background-color: #dfe7f8;
-
   font-family: "Golos Text", sans-serif;
+}
+
+.chat {
+  width: 650px;
 }

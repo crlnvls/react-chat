@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontSize: {
         sm: "18px",
-        base: "50px",
+        base: "30px",
         xl: "1.25rem",
         "2xl": "1.563rem",
         "3xl": "1.953rem",
@@ -14,8 +14,15 @@ module.exports = {
       },
       colors: {
         primary: "#fff",
-        secondary: "#56c5f9e6",
-        tertiary: "#54a5cae0",
+        secondary: "#4285f4",
+        tertiary: "#6199f5",
+      },
+      screens: {
+        sm: "768px",
+        // => @media (min-width: 576px) { ... }
+
+        md: "868px",
+        // => @media (min-width: 768px) { ... }
       },
     },
   },
