@@ -2,7 +2,7 @@
 
 React chat app using Firebase Authentication and Firebase's Cloud Firestore.
 
-Demo: 
+Demo: [https://reac-t-cha-t.netlify.app/](https://reac-t-cha-t.netlify.app/)
 
 ## Installation & Usage
 
