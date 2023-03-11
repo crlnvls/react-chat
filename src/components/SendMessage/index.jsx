@@ -35,7 +35,7 @@ const SendMessage = ({ scroll }) => {
         name="messageInput"
         placeholder="type your message..."
         value={message}
-        onChange={(e) => SetMessage(e.target.value)}
+        onChange={(e) => setMessage(e.target.value)}
       />
       <button type="submit">Send</button>
     </form>
