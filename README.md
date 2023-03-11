@@ -13,7 +13,8 @@ Demo:
 
 ## Learn More
 
-- [Firebase Authentication docs](https://firebase.google.com/docs/auth?authuser=0&hl=en)
 - [React docs](https://reactjs.org/)
 - [Create React App docs](https://create-react-app.dev/docs/getting-started/)
 - [Tailwind CSS](https://tailwindcss.com/docs/installation)
+- [Firebase Authentication docs](https://firebase.google.com/docs/auth?authuser=0&hl=en)
+- [Cloud Firestore](https://firebase.google.com/docs/firestore)
