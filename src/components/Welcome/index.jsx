@@ -11,8 +11,11 @@ const Welcome = () => {
 
   return (
     <>
-      <h2>Welcome to React Chat</h2>
-      <p>Sign with Google or GitHub</p>
+      <h2 className="text-left text-base text-primary">React Live Chat</h2>
+      <div className="py-32 text-center">
+        <h2 className="font-extrabold text-4xl">Navbars in Tailwind!</h2>
+      </div>
+
       <button onClick={googleSignIn}>Google</button>
     </>
   );
